@@ -6,7 +6,7 @@ In order to run this you will need a local MySQL database running on the default
 CREATE DATABASE test;
 You will also need a user for this db with the user name test and the password asdf.
 
-The way that race and religion are optional is to pass an empty string.
+The way that race and religion are optional is to pass an empty string as a form would.
 
 The pictures will upload to an uploads folder, as there is no front end I cannot store the current user, and as such cannot store it with a reference to the user, but if I could I would just store an email reference and a file path.
 
